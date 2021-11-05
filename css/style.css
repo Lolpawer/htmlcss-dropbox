@@ -62,3 +62,20 @@
     text-decoration: none;
     color: #000000;
 }
+
+/* Jumbotron */
+
+.jumbotron {
+    width: 100%;
+    background-color: #add1ea;
+    padding-top: 50px;
+}
+
+.jumbo {
+    margin: 0 auto;
+    padding: 0 160px;
+}
+
+.title {
+    font-size: 90px;
+}
