@@ -3,3 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
+.font {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row {
+    width: 100%;
+}
+
+.row::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.button{
+    background-color: #0063ff;
+    color: #ffffff;
+    padding: 0 20px;
+    max-height: 30px;
+    line-height: 30px;
+}
+
+/* Navbar */
+
+.navbar {
+    height: 50px;
+    line-height: 50px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+.navigation {
+    list-style: none;
+}
+
+.navigation li {
+    display: inline-block;
+    padding-top: 4px;
+    margin: 0 30px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #000000;
+}
