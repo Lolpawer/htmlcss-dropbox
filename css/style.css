@@ -38,6 +38,10 @@
     width: fit-content;
 }
 
+a{
+    text-decoration: none;
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -150,11 +154,12 @@
     padding-right: 5px; 
 }
 
+/* Colonne */
+
 .plan-row {
     padding: 50px 0;
+    margin-bottom: 50px;
 }
-
-/* Colonne */
 
 .column {
     height: 1100px;
@@ -231,6 +236,10 @@
     text-align: center;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .gray-line {
     border-top: 1px solid #d0d0d3;
     width: 60px;
@@ -276,4 +285,15 @@
     font-weight: 400;
     content: "\f118";
     padding-right: 5px;
+}
+
+/* Team */
+
+.team {
+    padding-bottom: 100px;
+}
+
+.team h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
 }
