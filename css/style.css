@@ -31,6 +31,7 @@
     padding: 0 20px;
     max-height: 30px;
     line-height: 30px;
+    width: fit-content;
 }
 
 /* Navbar */
@@ -78,4 +79,31 @@
 
 .title {
     font-size: 90px;
+    margin-bottom: 50px;
+}
+
+.jumbo-content {
+    width: 34%;
+    padding-right: 60px;
+}
+
+.jumbo-content p {
+    padding-bottom: 30px;
+}
+
+.jumbo-content .button {
+    margin-bottom: 10px;
+}
+
+.jumbo-content .fas {
+    font-size: 50px;
+}
+
+.jumbo-img {
+    width: 66%;
+}
+
+.jumbo-img img {
+    width: 100%;
+    margin-bottom: -80px;
 }
