@@ -154,6 +154,8 @@
     padding: 50px 0;
 }
 
+/* Colonne */
+
 .column {
     height: 1100px;
 }
@@ -253,4 +255,25 @@
     content: "\f00c";
     padding-right: 5px;
     color: #0063ff;
+}
+
+.building::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f1ad";
+    padding-right: 5px;
+}
+
+.user-plus::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f234";
+    padding-right: 5px;
+}
+
+.smile::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f118";
+    padding-right: 5px;
 }
