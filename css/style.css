@@ -432,3 +432,43 @@ a{
 .designit img {
     width: 100%;
 }
+
+.team-business {
+    height: 300px;
+}
+
+.team-business-row {
+    height: 300px;
+    padding-top: 100px;
+}
+
+.team-business-content {
+    color: #6b002b;
+    font-size: 40px;
+    width: 50%;
+}
+
+.team-business-right {
+    padding-top: 10px;
+}
+
+.team-business-button {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* FAQ */
+
+.faq {
+    padding: 100px 0;
+}
+
+.faq-question {
+    border-top: 1px solid #dcdcde;
+}
+
+.faq-row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 15px; 
+}
