@@ -7,10 +7,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.row {
-    width: 100%;
-}
-
 .row::after {
     content:"";
     display: table;
@@ -166,18 +162,16 @@ a{
 }
 
 .column.left {
-    width: 395px;
-    padding-right: 15px;
+    width: calc(100%/3 - 20px);
 }
 
 .column.middle {
-    width: 410px;
-    padding: 0 15px;
+    width: calc(100%/3 - 20px);
+    margin: 0 30px;
 }
 
 .column.right {
-    width: 395px;
-    padding-left: 15px;
+    width: calc(100%/3 - 20px);
 }
 
 .column-title {
