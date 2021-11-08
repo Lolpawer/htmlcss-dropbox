@@ -43,6 +43,11 @@ a{
     margin: 0 auto;
 }
 
+.section-title {
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
 /* Navbar */
 
 .navbar {
@@ -123,11 +128,6 @@ a{
 
 .plan {
     padding-top: 200px;
-}
-
-.plan h2 {
-    font-size: 40px;
-    padding-bottom: 50px;
 }
 
 .plan span {
@@ -322,4 +322,27 @@ a{
     color: #000000;
     background: none;
     border: 1px solid #000000;
+}
+
+/* Business */
+
+.side {
+    float: left;
+}
+
+.business {
+    padding-bottom: 80px;
+}
+
+.business.side {
+        width: calc(100%/3 - 20px);
+}
+
+.business.middle {
+    width: calc(100%/3 - 20px);
+    margin: 0 30px;
+}
+
+.business img {
+    width: 100%;
 }
