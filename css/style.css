@@ -472,3 +472,42 @@ a{
     padding-bottom: 30px;
     padding-right: 15px; 
 }
+
+/* Footer */
+
+footer {
+    background-color: #000000;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+.footer-row {
+    padding-bottom: 100px;
+}
+
+.footer-content {
+    padding-right: 100px;
+}
+
+.footer-list {
+    color: #ffffff;
+    list-style: none;
+}
+
+.white-line {
+        border-top: 1px solid #ffffff;
+        width: 150px;
+}
+
+.language {
+    color: #666666;
+    padding: 50px 0;
+}
+
+.world::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f57d";
+    color: #666666;
+    padding-right: 5px;
+}
