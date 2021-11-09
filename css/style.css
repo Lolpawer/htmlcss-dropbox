@@ -48,6 +48,128 @@ a{
     padding-bottom: 50px;
 }
 
+.blue-circle::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f192";
+    color: #0063ff;
+    padding-right: 5px;
+}
+
+.gray-circle::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f111";
+    color: #d9d9db;
+    padding-right: 5px; 
+}
+
+.user::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f007";
+    padding-right: 5px; 
+}
+
+.folder::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f07b";
+    padding-right: 5px; 
+}
+
+.pencil::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f303";
+    padding-right: 5px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.gray-line {
+    border-top: 1px solid #d0d0d3;
+    width: 60px;
+    margin: 40px 0;
+}
+
+.check::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    padding-right: 5px;
+    color: #0063ff;
+}
+
+.building::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f1ad";
+    padding-right: 5px;
+}
+
+.user-plus::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f234";
+    padding-right: 5px;
+}
+
+.smile::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f118";
+    padding-right: 5px;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-green {
+    background-color: #94d595;
+    border: 10px solid #caeacb;
+}
+
+.bg-crimson {
+    background-color: #6b002b;
+}
+
+.bg-lightblue {
+    background-color: #0096d3;
+}
+
+.bg-red {
+    background-color: #ff0000;
+}
+
+.bg-cyan {
+    background-color: #add1ea;
+}
+
+.bg-blue {
+    background-color: #022486;
+}
+
+.bg-yellow {
+    background-color: #ffd600;
+}
+
+.white-line {
+    border-top: 1px solid #ffffff;
+    width: 150px;
+}
+
+.world::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f57d";
+    color: #666666;
+    padding-right: 5px;
+}
+
 /* Navbar */
 
 .navbar {
@@ -91,7 +213,7 @@ a{
     padding: 0 160px;
 }
 
-.title {
+.jumbo-title {
     font-size: 80px;
     margin-bottom: 50px;
 }
@@ -134,22 +256,6 @@ a{
     padding-right: 30px;
 }
 
-.blue-circle::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f192";
-    color: #0063ff;
-    padding-right: 5px;
-}
-
-.gray-circle::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 400;
-    content: "\f111";
-    color: #d9d9db;
-    padding-right: 5px; 
-}
-
 /* Colonne */
 
 .plan-row {
@@ -180,13 +286,6 @@ a{
     padding: 5px 0;
 }
 
-.user::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 400;
-    content: "\f007";
-    padding-right: 5px; 
-}
-
 .column-content {
     border-right: 1px solid #d0d0d3;
     border-bottom: 1px solid #d0d0d3;
@@ -210,34 +309,10 @@ a{
     padding-bottom: 50px;
 }
 
-.folder::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 400;
-    content: "\f07b";
-    padding-right: 5px; 
-}
-
-.pencil::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f303";
-    padding-right: 5px;
-}
-
 .button.trial {
     margin: 50px 0;
     width: 100%;
     text-align: center;
-}
-
-.underline {
-    text-decoration: underline;
-}
-
-.gray-line {
-    border-top: 1px solid #d0d0d3;
-    width: 60px;
-    margin: 40px 0;
 }
 
 .points h3 {
@@ -252,34 +327,6 @@ a{
     margin-bottom: 20px;
 }
 
-.check::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f00c";
-    padding-right: 5px;
-    color: #0063ff;
-}
-
-.building::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 400;
-    content: "\f1ad";
-    padding-right: 5px;
-}
-
-.user-plus::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f234";
-    padding-right: 5px;
-}
-
-.smile::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 400;
-    content: "\f118";
-    padding-right: 5px;
-}
 
 /* Team */
 
@@ -325,10 +372,6 @@ a{
 }
 
 /* Business */
-
-.side {
-    float: left;
-}
 
 .business {
     padding-bottom: 80px;
@@ -385,39 +428,6 @@ a{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.invert {
-    filter: invert(1);
-}
-
-.bg-green {
-    background-color: #94d595;
-    border: 10px solid #caeacb;
-}
-
-.bg-crimson {
-    background-color: #6b002b;
-}
-
-.bg-lightblue {
-    background-color: #0096d3;
-}
-
-.bg-red {
-    background-color: #ff0000;
-}
-
-.bg-cyan {
-    background-color: #add1ea;
-}
-
-.bg-blue {
-    background-color: #022486;
-}
-
-.bg-yellow {
-    background-color: #ffd600;
 }
 
 .teams-middle {
@@ -498,20 +508,7 @@ footer {
     margin-bottom: 8px;
 }
 
-.white-line {
-        border-top: 1px solid #ffffff;
-        width: 150px;
-}
-
 .language {
     color: #666666;
     padding: 50px 0;
-}
-
-.world::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f57d";
-    color: #666666;
-    padding-right: 5px;
 }
