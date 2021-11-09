@@ -444,7 +444,7 @@ a{
 
 .team-business-content {
     color: #6b002b;
-    font-size: 40px;
+    font-size: 30px;
     width: 50%;
 }
 
@@ -492,6 +492,10 @@ footer {
 .footer-list {
     color: #ffffff;
     list-style: none;
+}
+
+.footer-list li {
+    margin-bottom: 8px;
 }
 
 .white-line {
